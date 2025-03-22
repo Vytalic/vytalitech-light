@@ -2,9 +2,9 @@
   "name": "vytalitech",
   "displayName": "Vytalitech Light",
   "description": "A light grey theme for maximum zen.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "Vytalitech",
-  "icon": "images/icon.png",
+  "icon": "Images/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/vytalic/vytalitech-light.git"
