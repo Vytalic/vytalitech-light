@@ -54,6 +54,7 @@
     "tab.border": "#2c2b2b", // Border around tabs
     "tab.activeForeground": "#000000", // Text color of active tab
     "tab.inactiveForeground": "#000000", // Text color of inactive tabs
+    "tab.activeBorderTop": "#007acc",
 
     // ✅ Optional: More fine control for edge cases
     "tab.unfocusedActiveForeground": "#222222", // If active but unfocused
@@ -104,6 +105,34 @@
     "list.inactiveSelectionForeground": "#333333",
     "list.focusForeground": "#000000",
     "list.focusBackground": "#dcdcdc",
+
+    // Bracket Pair Colors (6 Levels)
+    "editorBracketHighlight.foreground1": "#007acc", // Level 1 - Blue
+    "editorIndentGuide.background1": "#c0bebe",
+    "editorIndentGuide.activeBackground1": "#007acc",
+
+    "editorBracketHighlight.foreground2": "#F49D37", // Level 2 - Orange
+    "editorIndentGuide.background2": "#c0bebe",
+    "editorIndentGuide.activeBackground2": "#F49D37",
+
+    "editorBracketHighlight.foreground3": "#724797", // Level 3 - Deep Purple
+    "editorIndentGuide.background3": "#c0bebe",
+    "editorIndentGuide.activeBackground3": "#724797",
+
+    "editorBracketHighlight.foreground4": "#49ad4c", // Level 4 - Green
+    "editorIndentGuide.background4": "#c0bebe",
+    "editorIndentGuide.activeBackground4": "#49ad4c",
+
+    "editorBracketHighlight.foreground5": "#b73ad7", // Level 5 - Violet
+    "editorIndentGuide.background5": "#c0bebe",
+    "editorIndentGuide.activeBackground5": "#b73ad7",
+
+    "editorBracketHighlight.foreground6": "#000000", // Level 6 -Black
+    "editorIndentGuide.background6": "#c0bebe",
+    "editorIndentGuide.activeBackground6": "#000000",
+
+    // Unexpected Brackets (like a stray } )
+    "editorBracketHighlight.unexpectedBracket.foreground": "#FF0000",
 
     // ✔️ Checkmark / selected icon
     "list.focusHighlightForeground": "#007acc", // For match highlight on focused items
@@ -162,6 +191,25 @@
       "settings": {
         "foreground": "#d91e18",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "attribute-name",
+      "scope": "entity.other.attribute-name.html",
+      "settings": {
+        "foreground": "#818c8f",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "punctuation tag",
+      "scope": [
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html"
+      ],
+      "settings": {
+        "foreground": "#818c8f",
+        "fontStyle": ""
       }
     },
     {
