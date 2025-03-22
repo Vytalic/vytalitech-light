@@ -124,7 +124,12 @@
     "diffEditor.removedTextBackground": "#ffeaea88", // Reddish removal
     "editorGutter.modifiedBackground": "#007acc",
     "editorGutter.addedBackground": "#22863a",
-    "editorGutter.deletedBackground": "#d91e18"
+    "editorGutter.deletedBackground": "#d91e18",
+
+    "extensionButton.prominentForeground": "#000000",
+    "extensionButton.foreground": "#000000", // Text/icon color on the Install button
+    "extensionButton.background": "#e4e8e7", // Button background
+    "extensionButton.hoverBackground": "#96e7fc" // Hover background
   },
   "tokenColors": [
     {
