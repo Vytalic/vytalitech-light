@@ -1,6 +1,11 @@
 # Vytalitech Light
 
-A sleek, light-grey VS Code theme crafted for clarity, calm, and code focus.
+[![Version](https://img.shields.io/visual-studio-marketplace/v/vytalitech.vytalitech-light)](https://marketplace.visualstudio.com/items?itemName=vytalitech.vytalitech-light)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/vytalitech.vytalitech-light)](https://marketplace.visualstudio.com/items?itemName=vytalitech.vytalitech-light)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/vytalitech.vytalitech-light)](https://marketplace.visualstudio.com/items?itemName=vytalitech.vytalitech-light)
+[![GitHub Stars](https://img.shields.io/github/stars/vytalic/vytalitech-light?style=social)](https://github.com/vytalitech/vytalitech-light)
+
+A sleek, light-grey VS Code theme built for maximum zen and readability.
 
 ---
 
