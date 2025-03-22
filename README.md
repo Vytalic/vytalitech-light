@@ -1,8 +1,8 @@
 # Vytalitech Light
 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/vytalitech.vytalitech-light)](https://marketplace.visualstudio.com/items?itemName=vytalitech.vytalitech-light)
-[![Downloads](https://img.shields.io/visual-studio-marketplace/d/vytalitech.vytalitech-light)](https://marketplace.visualstudio.com/items?itemName=vytalitech.vytalitech-light)
-[![Rating](https://img.shields.io/visual-studio-marketplace/r/vytalitech.vytalitech-light)](https://marketplace.visualstudio.com/items?itemName=vytalitech.vytalitech-light)
+[![Version](https://img.shields.io/visual-studio-marketplace/v/vytalitech.vytalitech)](https://marketplace.visualstudio.com/items?itemName=vytalitech.vytalitech)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/vytalitech.vytalitech)](https://marketplace.visualstudio.com/items?itemName=vytalitech.vytalitech)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/vytalitech.vytalitech)](https://marketplace.visualstudio.com/items?itemName=vytalitech.vytalitech)
 [![GitHub Stars](https://img.shields.io/github/stars/vytalic/vytalitech-light?style=social)](https://github.com/vytalitech/vytalitech-light)
 
 A sleek, light-grey VS Code theme built for maximum zen and readability.
@@ -17,6 +17,10 @@ A sleek, light-grey VS Code theme built for maximum zen and readability.
 ---
 
 ## Installation
+
+[![Install from Visual Studio Marketplace](https://img.shields.io/badge/Install%20on-VS%20Code-007ACC?logo=visualstudiocode&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=vytalitech.vytalitech)
+
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;or</strong>
 
 **Option 1:** Search for `Vytalitech Light` in the **Extensions Marketplace** and click **Install**.  
 **Option 2:** [Download the latest `.vsix` release](https://marketplace.visualstudio.com/items?itemName=vytalitech.vytalitech) and install manually:

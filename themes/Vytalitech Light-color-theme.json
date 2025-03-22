@@ -39,20 +39,14 @@
     "tree.tableColumnsBorder": "#cccccc", // Optional: list/grid view separator
 
     // 🌟 Explorer panel header buttons
-    "toolbar.hoverBackground": "#f5f4f4", // Button background on hover
-    "toolbar.activeBackground": "#b0b0b0", // When pressed or active
-    "toolbar.hoverOutline": "#888888", // Border/outline on hover
+    "toolbar.hoverBackground": "#dcdcdc", // Button background on hover
+    "toolbar.activeBackground": "#eaeaea", // When pressed or active
+    "toolbar.hoverOutline": "#999999", // Border/outline on hover
 
     // 🎨 Buttons (New File, New Folder, Collapse, etc.)
     "sideBarTitle.foreground": "#000000", // "EXPLORER" text
     "activityBarBadge.background": "#ff4b4b", // Badge background (e.g. Git changes count)
     "activityBarBadge.foreground": "#ffffff", // Badge text color
-
-    // 🔘 Button colors inside the side bar (Explorer, etc.)
-    "button.background": "#d1d1d1", // Default button background
-    "button.foreground": "#000000", // Button icon/text color
-    "button.hoverBackground": "#bfbfbf", // On hover
-    "icon.foreground": "#000000",
 
     // 🧩 Tabs (file tabs in editor)
     "tab.activeBackground": "#e8e6e6", // Active tab background
@@ -85,9 +79,12 @@
     "activityBar.foreground": "#000000", // Text/icon color in activity bar
 
     // 🌫️ Command Palette Background + Input Box
-    "quickInput.background": "#fafafa", // Main popup background
+    "quickInput.background": "#d0d0d0", // Main popup background
     "quickInput.foreground": "#1a1a1a", // Text in search bar
     "quickInputTitle.background": "#eaeaea", // Title bar bg (if any)
+    "quickInputList.focusForeground": "#007acc",
+    "quickInputList.focusBackground": "#d0d0d0",
+    "quickInputList.focusIconForeground": "#005bbb",
 
     // 🎯 Section Labels inside Command Palette
     "pickerGroup.foreground": "#005bbb", // Group label text ("recently used", etc.)
@@ -129,7 +126,13 @@
     "extensionButton.prominentForeground": "#000000",
     "extensionButton.foreground": "#000000", // Text/icon color on the Install button
     "extensionButton.background": "#e4e8e7", // Button background
-    "extensionButton.hoverBackground": "#96e7fc" // Hover background
+    "extensionButton.hoverBackground": "#96e7fc", // Hover background
+
+    // Example: change icon color for buttons in SCM
+    "button.background": "#005A9E", // affects commit and other buttons
+    "button.foreground": "#ffffff", // icon/text color on buttons
+    "icon.foreground": "#005A9E",
+    "button.hoverBackground": "#005A9E" // hover effect
   },
   "tokenColors": [
     {
