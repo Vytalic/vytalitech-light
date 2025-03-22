@@ -44,6 +44,28 @@ A sleek, light-grey VS Code theme built for maximum zen and readability.
   - IntelliSense / Suggestions
 - Designed for **JavaScript**, **TypeScript**, **HTML**, **CSS**, and more
 
+## Extras
+
+### Terminal Font
+
+I'm using [`CaskaydiaMono Nerd Font`](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/CascadiaMono.zip) with full icon support (great for powerlines and Oh My Posh prompts). If you prefer not to download the zip here, visit this website and search for it there: (https://www.nerdfonts.com/font-downloads)
+
+> Download the `.zip`, extract it, install the font on your system, and set this in your 'settings.json':
+>
+> ```json
+> "terminal.integrated.fontFamily": "CaskaydiaMono Nerd Font"
+> ```
+
+### Editor Font
+
+For the editor, I am using [`JetBrains Mono NL SemiBold`](https://www.jetbrains.com/lp/mono/) — it’s a no-ligature (NL) variant of JetBrains Mono.
+
+> Download it from JetBrains, install the font, and set this in your `settings.json`:
+>
+> ```json
+> "editor.fontFamily": "'JetBrains Mono NL SemiBold', monospace"
+> ```
+
 ## Dev Mode
 
 Clone and run with:
