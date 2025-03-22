@@ -2,6 +2,10 @@
 
 A light grey VS Code theme built for maximum zen and readability.
 
+## Preview
+
+![Vytalitech Light Theme Preview](images/screenshot.png)
+
 ## Installation
 
 Download the latest `.vsix` from Releases or search **Vytalitech Light** in the Extensions Marketplace.
