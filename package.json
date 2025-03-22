@@ -4,6 +4,7 @@
   "description": "A light grey theme for maximum zen.",
   "version": "0.0.2",
   "publisher": "Vytalitech",
+  "icon": "images/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/vytalic/vytalitech-light.git"
