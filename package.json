@@ -1,0 +1,22 @@
+{
+  "name": "Vytalitech",
+  "displayName": "Vytalitech Light",
+  "description": "A light grey theme for maximum zen.",
+  "version": "0.0.1",
+  "publisher": "Vytalitech",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Vytalitech Light",
+        "uiTheme": "vs",
+        "path": "./themes/Vytalitech Light-color-theme.json"
+      }
+    ]
+  }
+}
