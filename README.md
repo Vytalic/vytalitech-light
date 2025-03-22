@@ -1,16 +1,24 @@
-# vytalitech README
+echo "# Vytalitech Light
 
-## Working with Markdown
+A light grey VS Code theme built for maximum zen and readability.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Installation
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+Download the latest `.vsix` from Releases or search 'Vytalitech Light' in the Extensions Marketplace.
 
-## For more information
+## Dev Mode
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Clone and run with:
 
-**Enjoy!**
+\`\`\`bash
+git clone https://github.com/YOUR_USERNAME/vytalitech-light.git
+cd vytalitech-light
+code .
+\`\`\`
+
+F5 to launch in Extension Development Host.
+" > README.md
+
+git add README.md
+git commit -m "Add README"
+git push
