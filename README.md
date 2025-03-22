@@ -11,7 +11,7 @@ Download the latest `.vsix` from Releases or search **Vytalitech Light** in the 
 Clone and run with:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/vytalitech-light.git
+git clone https://github.com/vytalic/vytalitech-light.git
 cd vytalitech-light
 code .
 ```
