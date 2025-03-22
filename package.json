@@ -1,9 +1,13 @@
 {
-  "name": "Vytalitech",
+  "name": "vytalitech",
   "displayName": "Vytalitech Light",
   "description": "A light grey theme for maximum zen.",
   "version": "0.0.1",
   "publisher": "Vytalitech",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vytalic/vytalitech-light.git"
+  },
   "engines": {
     "vscode": "^1.98.0"
   },
@@ -18,5 +22,6 @@
         "path": "./themes/Vytalitech Light-color-theme.json"
       }
     ]
-  }
+  },
+  "license": "MIT"
 }
