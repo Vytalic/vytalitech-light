@@ -165,17 +165,42 @@
     "button.background": "#005A9E", // affects commit and other buttons
     "button.foreground": "#ffffff", // icon/text color on buttons
     "icon.foreground": "#005A9E",
-    "button.hoverBackground": "#005A9E" // hover effect
+    "button.hoverBackground": "#005A9E", // hover effect
+
+    // 📦 Panel Header (tabs: Problems, Output, Terminal)
+    "panel.background": "#d6d8df", // Background of the entire panel area
+    "panel.border": "#b0b0b0", // Border between editor and panel
+    "panelTitle.activeForeground": "#000000", // Text color of active tab
+    "panelTitle.inactiveForeground": "#464646be", // Text color of inactive tabs
+    "panelTitle.activeBorder": "#007acc", // Border under the active tab
+    "panelSection.border": "#cccccc", // Divider between terminal tabs and content
+    "panelSectionHeader.background": "#eaeaea", // Background behind the terminal tabs
+    "panelSectionHeader.foreground": "#000000", // Text/icon color of terminal tabs
+
+    // Terminal Settings
+    "terminal.background": "#d6d8df",
+    "terminal.foreground": "#000000",
+    "terminalCursor.background": "#213132",
+    "terminalCursor.foreground": "#03040588",
+
+    "terminal.ansiBlack": "#333333",
+    "terminal.ansiRed": "#cc0000",
+    "terminal.ansiGreen": "#22863a",
+    "terminal.ansiYellow": "#b58900",
+    "terminal.ansiBlue": "#0067ce",
+    "terminal.ansiMagenta": "#8a2be2",
+    "terminal.ansiCyan": "#1ba287",
+    "terminal.ansiWhite": "#eaeaea",
+    "terminal.ansiBrightBlack": "#666666",
+    "terminal.ansiBrightRed": "#e57373",
+    "terminal.ansiBrightGreen": "#50b03c",
+    "terminal.ansiBrightYellow": "#fdd835",
+    "terminal.ansiBrightBlue": "#188cd9",
+    "terminal.ansiBrightMagenta": "#d670d6",
+    "terminal.ansiBrightCyan": "#4db6ac",
+    "terminal.ansiBrightWhite": "#ffffff"
   },
   "tokenColors": [
-    {
-      "scope": "keyword",
-      "settings": {
-        "foreground": "#d91e18",
-        "fontStyle": "bold"
-      }
-    },
-
     {
       "name": "interface",
       "scope": [
@@ -350,10 +375,21 @@
         "support.type.primitive",
         "keyword.operator.new.ts",
         "keyword.control.export.ts",
-        "keyword.operator.assignment.ts"
+        "keyword.operator.assignment.ts",
+        "keyword.control.flow.ts",
+        "keyword.operator.comparison.ts",
+        "keyword.operator.ternary.ts",
+        "keyword"
       ],
       "settings": {
         "foreground": "#6700ab",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": ["keyword.operator.arithmetic.ts"],
+      "settings": {
+        "foreground": "#160eac",
         "fontStyle": ""
       }
     },
