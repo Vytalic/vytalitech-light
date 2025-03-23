@@ -58,12 +58,12 @@ I'm using [`CaskaydiaMono Nerd Font`](https://github.com/ryanoasis/nerd-fonts/re
 
 ### Editor Font
 
-For the editor, I am using [`JetBrains Mono NL SemiBold`](https://www.jetbrains.com/lp/mono/) — it’s a no-ligature (NL) variant of JetBrains Mono.
+For the editor, I am using [`FiraCode Nerd Font`](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/FiraCode.zip) — it's an extension of Fira Mono font. If you prefer not to download the zip here, visit this website and search for it there: (https://www.nerdfonts.com/font-downloads)
 
-> Download it from JetBrains, install the font, and set this in your `settings.json`:
+> Download the `.zip`, extract it, install the font, and set this in your `settings.json`:
 >
 > ```json
-> "editor.fontFamily": "'JetBrains Mono NL SemiBold', monospace"
+> "editor.fontFamily": "FiraCode Nerd Font Propo, monospace"
 > ```
 
 ## Dev Mode
