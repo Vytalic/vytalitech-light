@@ -132,29 +132,31 @@
     "editorBracketMatch.border": "#ff000020",
 
     // Bracket Pair Colors (6 Levels)
-    "editorBracketHighlight.foreground1": "#000000", // Level 6 -Black
+    "editorBracketHighlight.foreground1": "#000000", // Level 1 -Black
     "editorIndentGuide.background1": "#c0bebe",
     "editorIndentGuide.activeBackground1": "#000000",
 
-    "editorBracketHighlight.foreground2": "#649185", // Level 1 - Blue
+    "editorBracketHighlight.foreground2": "#000000", // Level 2 - Black
     "editorIndentGuide.background2": "#c0bebe",
-    "editorIndentGuide.activeBackground2": "#649185",
+    "editorIndentGuide.activeBackground2": "#000000",
 
-    "editorBracketHighlight.foreground3": "#000000", // Level 5 - Violet
+    "editorBracketHighlight.foreground3": "#000000", // Level 3 - Black
     "editorIndentGuide.background3": "#c0bebe",
     "editorIndentGuide.activeBackground3": "#000000",
 
-    "editorBracketHighlight.foreground4": "#649185", // Level 2 - Orange
+    "editorBracketHighlight.foreground4": "#000000", // Level 4 - Black
     "editorIndentGuide.background4": "#c0bebe",
-    "editorIndentGuide.activeBackground4": "#76ab9d",
+    "editorIndentGuide.activeBackground4": "#000000",
 
-    "editorBracketHighlight.foreground5": "#000000", // Level 3 - Deep Purple
+    "editorBracketHighlight.foreground5": "#000000", // Level 5 - Black
     "editorIndentGuide.background5": "#c0bebe",
     "editorIndentGuide.activeBackground5": "#000000",
 
-    "editorBracketHighlight.foreground6": "#76ab9d", // Level 4 - Green
+    "editorBracketHighlight.foreground6": "#000000", // Level 6 - Black
     "editorIndentGuide.background6": "#c0bebe",
-    "editorIndentGuide.activeBackground6": "#76ab9d",
+    "editorIndentGuide.activeBackground6": "#000000",
+
+    // "editorBracketHighlight.foreground6": "#76ab9d",
 
     // Gutter area
     "editorLineNumber.foreground": "#888888",
@@ -286,10 +288,11 @@
         "entity.name.type.class.ts",
         "entity.name.type.class.js",
         "entity.name.type",
+        "entity.name.type.ts",
         "support.class"
       ],
       "settings": {
-        "foreground": "#0067ce",
+        "foreground": "#0281FF",
         "fontStyle": ""
       }
     },
@@ -352,7 +355,7 @@
       }
     },
     {
-      "scope": ["storage.type.ts"],
+      "scope": ["storage.type.ts", "storage.type.property.ts"],
       "settings": {
         "foreground": "#000000",
         "fontStyle": "bold"
@@ -366,9 +369,10 @@
       }
     },
     {
-      "scope": ["string.quoted.single.ts"],
+      "name": "class",
+      "scope": ["string.quoted.single.ts", "string.quoted.double.ts"],
       "settings": {
-        "foreground": "#1ba287",
+        "foreground": "#1B6C2E",
         "fontStyle": ""
       }
     },
@@ -391,14 +395,16 @@
         "support.type.primitive",
         "keyword.operator.new.ts",
         "keyword.control.export.ts",
+        "keyword.control.import.ts",
         "keyword.operator.assignment.ts",
         "keyword.control.flow.ts",
         "keyword.operator.comparison.ts",
         "keyword.operator.ternary.ts",
-        "keyword"
+        "keyword",
+        "keyword.operator.arithmetic.ts"
       ],
       "settings": {
-        "foreground": "#6700ab",
+        "foreground": "#8e813f",
         "fontStyle": ""
       }
     },
@@ -417,7 +423,8 @@
         "variable.other.object.ts",
         "variable.other.object.property.ts",
         "entity.name.function.ts",
-        "variable.other.constant.ts"
+        "variable.other.constant.ts",
+        "variable.other.readwrite.ts"
       ],
       "settings": {
         "foreground": "#0067ce",
