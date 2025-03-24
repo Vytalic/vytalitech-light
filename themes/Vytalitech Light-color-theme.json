@@ -360,7 +360,7 @@
       "scope": ["entity.other.inherited-class.ts"],
       "settings": {
         "foreground": "#4d0045",
-        "fontStyle": "bold"
+        "fontStyle": ""
       }
     },
 
