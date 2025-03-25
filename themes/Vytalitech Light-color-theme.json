@@ -350,7 +350,11 @@
       }
     },
     {
-      "scope": ["storage.type.ts", "storage.type.property.ts"],
+      "scope": [
+        "storage.type.ts",
+        "storage.type.property.ts",
+        "storage.type.function.arrow.ts"
+      ],
       "settings": {
         "foreground": "#000000",
         "fontStyle": "bold"
