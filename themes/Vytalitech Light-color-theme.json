@@ -1,27 +1,27 @@
 {
   "name": "Vytalitech Light",
   "colors": {
-    // 🗂️ Tabs Header Bar (top area where tabs live)
+    // Tabs Header Bar (top area where tabs live)
     "editorGroupHeader.tabsBackground": "#bab8b8", // Background behind tabs when tabs are visible
     "editorGroupHeader.noTabsBackground": "#d0d0d0", // Background when no tabs are shown (single file open)
 
-    // 🔝 Window Title Bar (topmost bar)
+    // Window Title Bar (topmost bar)
     "titleBar.activeForeground": "#000000", // Text color when window is focused
     "titleBar.inactiveForeground": "#444444", // Text color when window is unfocused
     "titleBar.activeBackground": "#b6b6b6", // Background when focused
     "titleBar.inactiveBackground": "#eaeaea", // Background when not focused
 
-    // 📌 Breadcrumbs Styling
+    // Breadcrumbs Styling
     "breadcrumb.foreground": "#333333", // Main breadcrumb text
     "breadcrumb.activeSelectionForeground": "#000000", // Currently selected item
     "breadcrumb.focusForeground": "#1a1a1a", // Hovered item
     "breadcrumbPicker.background": "#e0e0e0", // Dropdown background (when you click on breadcrumbs)
 
-    // 📝 Main Editor Area
+    // Main Editor Area
     "editor.background": "#dededc", // Main editor background
     "editor.lineHighlightBackground": "#ffffff", // Highlighted line background color
 
-    // 📦 Status Bar (very bottom of window)
+    // Status Bar (very bottom of window)
     "statusBar.background": "#bab8b8", // Background color of the status bar
     "statusBar.foreground": "#000000", // Text color in the status bar
     "statusBarItem.hoverBackground": "#c3c7d1", // Hover color for items
@@ -30,7 +30,7 @@
     "statusBarItem.prominentBackground": "#cccccc", // Special items (e.g. Git)
     "statusBarItem.prominentHoverBackground": "#bbbbbb", // Hover for special items
 
-    // 📁 Side Bar (explorer / extensions view)
+    // Side Bar (explorer / extensions view)
     "sideBar.background": "#cecece", // Background color of the sidebar
     "sideBar.foreground": "#000000", // Text color in the sidebar
     "sideBarSectionHeader.foreground": "#000000", // "OPEN EDITORS", "EXPLORER" headers
@@ -38,35 +38,35 @@
     "tree.inactiveIndentGuidesStroke": "#ff0000",
     "tree.tableColumnsBorder": "#cccccc", // Optional: list/grid view separator
 
-    // 🌟 Explorer panel header buttons
+    // Explorer panel header buttons
     "toolbar.hoverBackground": "#dcdcdc", // Button background on hover
     "toolbar.activeBackground": "#eaeaea", // When pressed or active
     "toolbar.hoverOutline": "#999999", // Border/outline on hover
 
-    // 🎨 Buttons (New File, New Folder, Collapse, etc.)
+    // Buttons (New File, New Folder, Collapse, etc.)
     "sideBarTitle.foreground": "#000000", // "EXPLORER" text
     "activityBarBadge.background": "#ff4b4b", // Badge background (e.g. Git changes count)
     "activityBarBadge.foreground": "#ffffff", // Badge text color
 
-    // 🧩 Tabs (file tabs in editor)
+    // Tabs (file tabs in editor)
     "tab.activeBackground": "#e8e6e6", // Active tab background
     "tab.inactiveBackground": "#bab8b8", // Inactive tab background
     "tab.border": "#2c2b2b", // Border around tabs
     "tab.activeForeground": "#000000", // Text color of active tab
     "tab.inactiveForeground": "#000000", // Text color of inactive tabs
 
-    // ✅ Optional: More fine control for edge cases
+    // Optional: More fine control for edge cases
     "tab.unfocusedActiveForeground": "#222222", // If active but unfocused
     "tab.unfocusedInactiveForeground": "#666666", // If inactive and unfocused
     "tab.hoverForeground": "#000000", // On hover
 
-    // ✏️ Dirty (unsaved) file indicator (dot or icon)
+    // Dirty (unsaved) file indicator (dot or icon)
     "tab.activeModifiedBorder": "#ff0000",
     "tab.inactiveModifiedBorder": "#ff8888",
     "tab.unfocusedActiveModifiedBorder": "#ffaaaa",
     "tab.unfocusedInactiveModifiedBorder": "#ffcccc",
 
-    // 🔍 Suggestion / IntelliSense popup (Professional & Informative)
+    // Suggestion / IntelliSense popup (Professional & Informative)
     "editorSuggestWidget.background": "#f5f5f5", // Light gray for soft background
     "editorSuggestWidget.foreground": "#1a1a1a", // Dark gray/black for clean text
     "editorSuggestWidget.selectedBackground": "#e0e0e0", // Subtle highlight for selection
@@ -74,11 +74,11 @@
     "editorSuggestWidget.highlightForeground": "#007acc", // Deep blue for matched text (informative, not alarming)
     "editorSuggestWidget.border": "#cccccc", // Soft gray border
 
-    // 📌 Activity Bar (far left column with icons)
+    // Activity Bar (far left column with icons)
     "activityBar.background": "#bab8b8", // Background of activity bar
     "activityBar.foreground": "#000000", // Text/icon color in activity bar
 
-    // 🌫️ Command Palette Background + Input Box
+    // Command Palette Background + Input Box
     "quickInput.background": "#d0d0d0", // Main popup background
     "quickInput.foreground": "#1a1a1a", // Text in search bar
     "quickInputTitle.background": "#eaeaea", // Title bar bg (if any)
@@ -86,7 +86,7 @@
     "quickInputList.focusBackground": "#d0d0d0",
     "quickInputList.focusIconForeground": "#005bbb",
 
-    // 🎯 Section Labels inside Command Palette
+    // Section Labels inside Command Palette
     "pickerGroup.foreground": "#005bbb", // Group label text ("recently used", etc.)
     "pickerGroup.border": "#cccccc", // Border between groups
 
@@ -103,17 +103,17 @@
 
     "focusBorder": "#5cacac",
 
-    // ✨ Matched Typed Text
+    // Matched Typed Text
     "list.highlightForeground": "#007acc", // Matched characters (typed filter)
 
     "tab.activeBorderTop": "#007acc",
 
-    // ☑️ Checkbox / Multi-Selection Support
+    // Checkbox / Multi-Selection Support
     "list.inactiveSelectionForeground": "#333333",
     "list.focusForeground": "#000000",
     "list.focusBackground": "#dcdcdc",
 
-    // ✔️ Checkmark / selected icon
+    // Checkmark / selected icon
     "list.focusHighlightForeground": "#007acc", // For match highlight on focused items
     "list.activeSelectionIconForeground": "#005bbb", // Checkmark icon color
     "list.inactiveSelectionIconForeground": "#999999", // Dim checkmark for unfocused
@@ -180,7 +180,7 @@
     "icon.foreground": "#005A9E",
     "button.hoverBackground": "#005A9E", // hover effect
 
-    // 📦 Panel Header (tabs: Problems, Output, Terminal)
+    // Panel Header (tabs: Problems, Output, Terminal)
     "panel.background": "#d6d8df", // Background of the entire panel area
     "panel.border": "#b0b0b0", // Border between editor and panel
     "panelTitle.activeForeground": "#000000", // Text color of active tab
@@ -221,7 +221,12 @@
         "storage.type.namespace.ts",
         "storage.type.enum.ts",
         "storage.type.class.ts",
-        "storage.modifier.ts"
+        "storage.modifier.ts",
+        "storage.type.interface.js",
+        "storage.type.namespace.js",
+        "storage.type.enum.js",
+        "storage.type.class.js",
+        "storage.modifier.js"
       ],
       "settings": {
         "foreground": "#033e6e",
@@ -230,7 +235,7 @@
     },
     {
       "name": "numeric decimal",
-      "scope": ["constant.numeric.decimal.ts"],
+      "scope": ["constant.numeric.decimal.ts", "constant.numeric.decimal.js"],
       "settings": {
         "foreground": "#9b1e57",
         "fontStyle": ""
@@ -264,10 +269,10 @@
     },
     {
       "name": "name tag",
-      "scope": "entity.name.tag.html",
+      "scope": ["entity.name.type.ts", "entity.name.type.js"],
       "settings": {
-        "foreground": "#188cd9",
-        "fontStyle": "bold"
+        "foreground": "#0281FF",
+        "fontStyle": ""
       }
     },
 
@@ -284,7 +289,8 @@
         "entity.name.type.class.js",
         "entity.name.type",
         "entity.name.type.ts",
-        "support.class"
+        "support.class",
+        "entity.name.type.js"
       ],
       "settings": {
         "foreground": "#0281FF",
@@ -302,6 +308,14 @@
       "scope": ["variable", "variable.parameter"],
       "settings": {
         "foreground": "#5e5e5e",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "from",
+      "scope": ["variable.parameter.ts"],
+      "settings": {
+        "foreground": "#5E5E5E",
         "fontStyle": ""
       }
     },
@@ -327,7 +341,12 @@
       }
     },
     {
-      "scope": ["keyword.control.as.ts", "entity.name.type.ts"],
+      "scope": [
+        "keyword.control.as.ts",
+        "entity.name.type.ts",
+        "keyword.control.as.js",
+        "entity.name.type.js"
+      ],
       "settings": {
         "foreground": "#8c9156",
         "fontStyle": ""
@@ -342,7 +361,14 @@
         "meta.brace.round.ts",
         "punctuation.terminator.statement.ts",
         "punctuation.accessor.ts",
-        "punctuation.separator.key-value.html"
+        "punctuation.separator.key-value.html",
+        "variable.object.property.js",
+        "meta.object-literal.key.js",
+        "meta.definition.property.js",
+        "meta.field.declaration.js",
+        "meta.brace.round.js",
+        "punctuation.terminator.statement.js",
+        "punctuation.accessor.js"
       ],
       "settings": {
         "foreground": "#000000",
@@ -353,7 +379,10 @@
       "scope": [
         "storage.type.ts",
         "storage.type.property.ts",
-        "storage.type.function.arrow.ts"
+        "storage.type.function.arrow.ts",
+        "storage.type.js",
+        "storage.type.property.js",
+        "storage.type.function.arrow.js"
       ],
       "settings": {
         "foreground": "#000000",
@@ -361,7 +390,12 @@
       }
     },
     {
-      "scope": ["keyword.control.import.ts", "keyword.control.from.ts"],
+      "scope": [
+        "keyword.control.import.ts",
+        "keyword.control.from.ts",
+        "keyword.control.import.js",
+        "keyword.control.from.js"
+      ],
       "settings": {
         "foreground": "#8E813F",
         "fontStyle": ""
@@ -372,7 +406,10 @@
       "scope": [
         "string.quoted.single.ts",
         "string.quoted.double.ts",
-        "string.template.ts"
+        "string.template.ts",
+        "string.quoted.single.js",
+        "string.quoted.double.js",
+        "string.template.js"
       ],
       "settings": {
         "foreground": "#50B03C",
@@ -380,7 +417,10 @@
       }
     },
     {
-      "scope": ["entity.other.inherited-class.ts"],
+      "scope": [
+        "entity.other.inherited-class.ts",
+        "entity.other.inherited-class.js"
+      ],
       "settings": {
         "foreground": "#4d0045",
         "fontStyle": ""
@@ -391,7 +431,10 @@
       "scope": [
         "constant.language.null.ts",
         "constant.language.boolean.false.ts",
-        "constant.character.escape.ts"
+        "constant.character.escape.ts",
+        "constant.language.null.js",
+        "constant.language.boolean.false.js",
+        "constant.character.escape.js"
       ],
       "settings": {
         "foreground": "#c95e16",
@@ -407,7 +450,6 @@
         "support.type.builtin.ts",
         "keyword.operator.type.ts",
         "support.type.primitive.ts",
-        "support.type.primitive",
         "keyword.operator.new.ts",
         "keyword.control.export.ts",
         "keyword.control.import.ts",
@@ -416,7 +458,22 @@
         "keyword.operator.comparison.ts",
         "keyword.operator.ternary.ts",
         "keyword",
-        "keyword.operator.arithmetic.ts"
+        "keyword.operator.arithmetic.ts",
+        "meta.type.annotation.js",
+        "keyword.operator.type.annotation.js",
+        "keyword.operator.optional.js",
+        "support.type.builtin.js",
+        "keyword.operator.type.js",
+        "support.type.primitive.js",
+        "support.type.primitive",
+        "keyword.operator.new.js",
+        "keyword.control.export.js",
+        "keyword.control.import.js",
+        "keyword.operator.assignment.js",
+        "keyword.control.flow.js",
+        "keyword.operator.comparison.js",
+        "keyword.operator.ternary.js",
+        "keyword.operator.arithmetic.js"
       ],
       "settings": {
         "foreground": "#8e813f",
@@ -424,9 +481,20 @@
       }
     },
     {
-      "scope": ["keyword.operator.arithmetic.ts"],
+      "scope": [
+        "keyword.operator.arithmetic.ts",
+        "keyword.operator.arithmetic.js"
+      ],
       "settings": {
         "foreground": "#160eac",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "from",
+      "scope": ["variable.other.object.ts", "variable.other.object.js"],
+      "settings": {
+        "foreground": "#8E813F",
         "fontStyle": ""
       }
     },
@@ -435,12 +503,19 @@
       "scope": [
         "variable.language.this.ts",
         "variable.other.property.ts",
-        "variable.other.object.ts",
         "variable.other.object.property.ts",
         "entity.name.function.ts",
         "variable.other.constant.ts",
         "variable.other.readwrite.ts",
-        "variable.other.readwrite.alias.ts"
+        "variable.other.readwrite.alias.ts",
+        "variable.language.this.js",
+        "variable.other.property.js",
+        "variable.other.object.js",
+        "variable.other.object.property.js",
+        "entity.name.function.js",
+        "variable.other.constant.js",
+        "variable.other.readwrite.js",
+        "variable.other.readwrite.alias.js"
       ],
       "settings": {
         "foreground": "#0067ce",
