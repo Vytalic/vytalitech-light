@@ -42,7 +42,7 @@ A sleek, light-grey VS Code theme built for maximum zen and readability.
   - Command palette
   - Breadcrumbs
   - IntelliSense / Suggestions
-- Designed for **JavaScript**, **TypeScript**, **HTML**, **CSS**, and more
+- Designed for primarily for **JavaScript** and **TypeScript**.
 
 ## Extras
 
