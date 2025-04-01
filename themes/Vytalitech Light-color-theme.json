@@ -255,7 +255,7 @@
       "scope": "support.type.property-name.css",
       "settings": {
         "foreground": "#188cd9",
-        "fontStyle": "bold"
+        "fontStyle": ""
       }
     },
 
