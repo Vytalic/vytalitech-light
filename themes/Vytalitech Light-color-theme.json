@@ -220,6 +220,11 @@
         "storage.type.enum.ts",
         "storage.type.class.ts",
         "storage.modifier.ts",
+        "storage.type.interface.tsx",
+        "storage.type.namespace.tsx",
+        "storage.type.enum.tsx",
+        "storage.type.class.tsx",
+        "storage.modifier.tsx",
         "storage.type.interface.js",
         "storage.type.namespace.js",
         "storage.type.enum.js",
@@ -271,9 +276,11 @@
       "name": "Class & Type Names",
       "scope": [
         "entity.name.type.class.ts",
+        "entity.name.type.class.tsx",
         "entity.name.type.class.js",
         "entity.name.type",
         "entity.name.type.ts",
+        "entity.name.type.tsx",
         "support.class",
         "entity.name.type.js"
       ],
@@ -292,7 +299,12 @@
     },
     {
       "name": "Variables & Parameters",
-      "scope": ["variable", "variable.parameter.ts", "variable.parameter.js"],
+      "scope": [
+        "variable",
+        "variable.parameter.ts",
+        "variable.parameter.tsx",
+        "variable.parameter.js"
+      ],
       "settings": {
         "foreground": "#5E5E5E",
         "fontStyle": ""
@@ -318,6 +330,8 @@
       "scope": [
         "keyword.control.as.ts",
         "entity.name.type.ts",
+        "keyword.control.as.tsx",
+        "entity.name.type.tsx",
         "keyword.control.as.js",
         "entity.name.type.js"
       ],
@@ -336,6 +350,13 @@
         "meta.brace.round.ts",
         "punctuation.terminator.statement.ts",
         "punctuation.accessor.ts",
+        "variable.object.property.tsx",
+        "meta.object-literal.key.tsx",
+        "meta.definition.property.tsx",
+        "meta.field.declaration.tsx",
+        "meta.brace.round.tsx",
+        "punctuation.terminator.statement.tsx",
+        "punctuation.accessor.tsx",
         "punctuation.separator.key-value.html",
         "variable.object.property.js",
         "meta.object-literal.key.js",
@@ -352,7 +373,11 @@
     },
     {
       "name": "Property Types",
-      "scope": ["storage.type.property.ts", "storage.type.property.js"],
+      "scope": [
+        "storage.type.property.ts",
+        "storage.type.property.tsx",
+        "storage.type.property.js"
+      ],
       "settings": {
         "foreground": "#000000",
         "fontStyle": "bold"
@@ -363,6 +388,8 @@
       "scope": [
         "keyword.control.import.ts",
         "keyword.control.from.ts",
+        "keyword.control.import.tsx",
+        "keyword.control.from.tsx",
         "keyword.control.import.js",
         "keyword.control.from.js"
       ],
@@ -375,6 +402,7 @@
       "name": "Inherited Class Names",
       "scope": [
         "entity.other.inherited-class.ts",
+        "entity.other.inherited-class.tsx",
         "entity.other.inherited-class.js"
       ],
       "settings": {
@@ -398,6 +426,18 @@
         "keyword.control.flow.ts",
         "keyword.operator.comparison.ts",
         "keyword.operator.ternary.ts",
+        "meta.type.annotation.tsx",
+        "keyword.operator.type.annotation.tsx",
+        "keyword.operator.optional.tsx",
+        "support.type.builtin.tsx",
+        "keyword.operator.type.tsx",
+        "support.type.primitive.tsx",
+        "keyword.operator.new.tsx",
+        "keyword.control.export.tsx",
+        "keyword.operator.assignment.tsx",
+        "keyword.control.flow.tsx",
+        "keyword.operator.comparison.tsx",
+        "keyword.operator.ternary.tsx",
         "keyword",
         "meta.type.annotation.js",
         "keyword.operator.type.annotation.js",
@@ -422,6 +462,7 @@
       "name": "Arithmetic Operators",
       "scope": [
         "keyword.operator.arithmetic.ts",
+        "keyword.operator.arithmetic.tsx",
         "keyword.operator.arithmetic.js"
       ],
       "settings": {
@@ -440,10 +481,18 @@
         "variable.other.constant.ts",
         "variable.other.readwrite.ts",
         "variable.other.readwrite.alias.ts",
+        "variable.other.object.ts",
+        "variable.language.this.tsx",
+        "variable.other.property.tsx",
+        "variable.other.object.property.tsx",
+        "entity.name.function.tsx",
+        "variable.other.constant.tsx",
+        "variable.other.readwrite.tsx",
+        "variable.other.readwrite.alias.tsx",
+        "variable.other.object.tsx",
         "variable.language.this.js",
         "variable.other.property.js",
         "variable.other.object.js",
-        "variable.other.object.ts",
         "variable.other.object.property.js",
         "entity.name.function.js",
         "variable.other.constant.js",
@@ -459,11 +508,14 @@
       "name": "JS/TS Embedded HTML Tags",
       "scope": [
         "entity.other.attribute-name.js",
-        "entity.other.attribute-name.ts",
         "punctuation.definition.tag.begin.js",
         "punctuation.definition.tag.end.js",
         "punctuation.definition.tag.begin.ts",
-        "punctuation.definition.tag.end.ts"
+        "punctuation.definition.tag.end.ts",
+        "entity.other.attribute-name.ts",
+        "punctuation.definition.tag.begin.tsx",
+        "punctuation.definition.tag.end.tsx",
+        "entity.other.attribute-name.tsx"
       ],
       "settings": {
         "foreground": "#888888",
@@ -477,7 +529,9 @@
         "storage.type.js",
         "storage.type.function.arrow.js",
         "storage.type.ts",
-        "storage.type.function.arrow.ts"
+        "storage.type.function.arrow.ts",
+        "storage.type.tsx",
+        "storage.type.function.arrow.tsx"
       ],
       "settings": {
         "foreground": "#0A3640",
@@ -488,11 +542,14 @@
     {
       "name": "String Quotes & Templates",
       "scope": [
-        "string.quoted.double.js",
-        "string.quoted.single.js",
+        "string.template.ts",
         "string.quoted.double.ts",
         "string.quoted.single.ts",
-        "string.template.ts",
+        "string.template.tsx",
+        "string.quoted.double.tsx",
+        "string.quoted.single.tsx",
+        "string.quoted.double.js",
+        "string.quoted.single.js",
         "string.template.js"
       ],
       "settings": {
@@ -502,7 +559,11 @@
     },
     {
       "name": "Async Modifier",
-      "scope": ["storage.modifier.async.js", "storage.modifier.async.ts"],
+      "scope": [
+        "storage.modifier.async.js",
+        "storage.modifier.async.ts",
+        "storage.modifier.async.tsx"
+      ],
       "settings": {
         "foreground": "#000000",
         "fontStyle": "bold"
@@ -514,7 +575,8 @@
       "scope": [
         "constant.numeric",
         "constant.numeric.decimal.js",
-        "constant.numeric.decimal.ts"
+        "constant.numeric.decimal.ts",
+        "constant.numeric.decimal.tsx"
       ],
       "settings": {
         "foreground": "#DE4A80",
@@ -526,13 +588,17 @@
       "name": "Boolean, Nulls & Escapes",
       "scope": [
         "constant.language.boolean.true.js",
+        "constant.language.null.js",
+        "constant.character.escape.js",
         "constant.language.boolean.false.js",
         "constant.language.boolean.true.ts",
         "constant.language.boolean.false.ts",
         "constant.language.null.ts",
         "constant.character.escape.ts",
-        "constant.language.null.js",
-        "constant.character.escape.js"
+        "constant.language.boolean.true.tsx",
+        "constant.language.boolean.false.tsx",
+        "constant.language.null.tsx",
+        "constant.character.escape.tsx"
       ],
       "settings": {
         "foreground": "#C95E16",
